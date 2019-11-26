@@ -7,6 +7,16 @@ public class ArrayUtil {
 			System.out.println( array[ j ] );
 		}
 	}
+	
+	public static void print( int[] array ) {
+		for( int j = 0; j < array.length; j++ ) {
+			if( j == 0 ) {
+				System.out.print( array[ j ] );
+			} else {
+				System.out.print( ", " + array[ j ] );
+			}
+		}
+	}
 
 	public static void swap( int[] array, int a, int b ) {
 		int tmp = array[ a ];
