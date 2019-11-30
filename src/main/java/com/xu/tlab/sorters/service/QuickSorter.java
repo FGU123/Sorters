@@ -39,8 +39,6 @@ public class QuickSorter {
 		
 		int i = left + 1;
 		
-		System.err.println(i);
-
 		int j = right;
 
 		// 左右两个指针，i从pivot后面一位数字开始，j从数组最右边数字开始
